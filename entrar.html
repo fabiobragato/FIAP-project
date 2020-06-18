@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> Página Inicial </title>
+	<meta charset="utf-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content = "IE-edge">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="CSS/bootstrap-grid.min.css">
+  	<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+			<!-- Menu Lateral -->
+		<div class="sidebar">
+			<h2><i class="fas fa-first-aid"></i> HealthTrack </h2>
+			<ul>
+				<li><a href="index.html"><i class="fas fa-home"></i> Página Inicial</li>
+				<li><a href="entrar.html"><i class="fas fa-user"></i> Entrar</a></li>
+				<li><a href="listagem.html"><i class="fas fa-list-alt"></i> Listagem de Pesos</a></li>
+				<li><a href="novopeso.html"><i class="fas fa-balance-scale"></i> Adicionar Peso</a></li>
+			</ul>		
+			<div class="social">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>	
+		</div>
+
+			<!-- Conteúdo da Página -->
+
+		<div class="conteudo">
+			<div class="header"> Entrar </div>
+			<div class="info">
+				<div class="container">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="email" class="control-label col-md-2">E-mail: </label>
+							<div class="col-md-10">
+								<input type="email" class="form-control" id="email" placeholder="Digite o seu e-mail">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="pwd" class="control-label col-md-2">Senha: </label>
+							<div class="col-md-10">
+								<input type="password" class="form-control" id="pwd" placeholder="Digite sua senha">
+							</div>
+						</div>
+						<div>
+							<a class="btn btn-secondary col-md-5" href="index.html" role="button"> Entrar </a>
+							<a class="btn btn-secondary col-md-5" href="index.html" role="button"> Esqueci minha senha </a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
